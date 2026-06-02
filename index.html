@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor Biblioteca Personal</title>
+
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+<aside>
+
+    <h1>Biblioteca</h1>
+
+    <nav>
+
+        <button id="abrirLibro">
+            Nuevo Libro
+        </button>
+
+        <button id="abrirGenero">
+            Nuevo Género
+        </button>
+
+    </nav>
+
+</aside>
+
+<main>
+
+    <section>
+
+        <h1>
+            Colección
+            <br>
+            <span>de libros</span>
+        </h1>
+
+        <p>
+            Biblioteca personal usando Axios y JSON Server
+        </p>
+
+    </section>
+
+    <div class="contenedor-biblioteca">
+
+    <section class="zona-libros">
+
+        <header>
+            <h2>Libros</h2>
+        </header>
+
+        <div id="lista-libros"></div>
+
+    </section>
+
+    <aside class="panel-lateral">
+
+        <section>
+
+            <header>
+                <h2>Géneros</h2>
+            </header>
+
+            <div id="lista-generos"></div>
+
+        </section>
+
+        <section>
+
+            <header>
+                <h2>Anotaciones</h2>
+            </header>
+
+            <div id="lista-anotaciones"></div>
+
+        </section>
+
+    </aside>
+
+</div>
+
+<footer class="footer-proyecto">
+
+    <div class="footer-redes">
+
+    <a href="#">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-youtube"></i>
+    </a>
+
+</div>
+
+    <p class="footer-email">
+        grupo7@biblioteca.com
+    </p>
+
+    <p class="footer-copy">
+        &copy; 2026 Grupo 7 - Derechos Reservados
+    </p>
+
+</footer>
+
+</main>
+
+<!-- MODAL LIBRO -->
+
+<div class="modal-container" id="modalLibro">
+
+    <div class="modal">
+
+        <h2>Nuevo Libro</h2>
+
+        <form id="formLibro">
+
+            <label>Título</label>
+            <input
+                type="text"
+                id="titulo"
+                required
+            >
+
+            <label>Autor</label>
+            <input
+                type="text"
+                id="autor"
+                required
+            >
+
+            <label>Año</label>
+            <input
+                type="number"
+                id="anio"
+                required
+            >
+
+            <label>Páginas</label>
+            <input
+                type="number"
+                id="paginas"
+                required
+            >
+
+            <label>Estado</label>
+
+            <select id="estado">
+
+                <option value="por leer">
+                    Por leer
+                </option>
+
+                <option value="leyendo">
+                    Leyendo
+                </option>
+
+                <option value="terminado">
+                    Terminado
+                </option>
+
+            </select>
+
+            <label>Género</label>
+
+            <select id="generoSelect">
+            </select>
+
+            <label>URL Portada</label>
+
+            <input
+                type="text"
+                id="url"
+            >
+
+            <button type="submit">
+                Guardar Libro
+            </button>
+
+            <button
+                type="button"
+                id="cerrarLibro"
+            >
+                Cerrar
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<!-- MODAL GENERO -->
+
+<div class="modal-container" id="modalGenero">
+
+    <div class="modal">
+
+        <h2>Nuevo Género</h2>
+
+        <form id="formGenero">
+
+            <label>Nombre</label>
+
+            <input
+                type="text"
+                id="nombreGenero"
+                required
+            >
+
+            <label>Color</label>
+
+            <input
+                type="color"
+                id="colorGenero"
+            >
+
+            <button type="submit">
+                Guardar Género
+            </button>
+
+            <button
+                type="button"
+                id="cerrarGenero"
+            >
+                Cerrar
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>

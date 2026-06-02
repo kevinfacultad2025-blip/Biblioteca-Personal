@@ -1,0 +1,56 @@
+{
+  "libros": [
+    {
+      "titulo": "segundo LIBRO",
+      "autor": "jrjr",
+      "anio": 9,
+      "paginas": 9,
+      "estado": "leyendo",
+      "generoId": "qqWnfv7wUhI",
+      "url": "https://i.ytimg.com/vi/SUL11lUd6sI/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGDwgSyh_MA8=&rs=AOn4CLDzY2_ZGWCB9LabbxnpZnPhgz56-A",
+      "id": "jBpKehKytCY"
+    },
+    {
+      "titulo": "PRIMER LIBRO",
+      "autor": "Kevin",
+      "anio": 13,
+      "paginas": 10,
+      "estado": "por leer",
+      "generoId": "qqWnfv7wUhI",
+      "url": "https://i.ytimg.com/vi/SUL11lUd6sI/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGDwgSyh_MA8=&rs=AOn4CLDzY2_ZGWCB9LabbxnpZnPhgz56-A",
+      "id": "YTH5VkU3Qc4"
+    },
+    {
+      "titulo": "PRIMER LIBRO",
+      "autor": "lautaro",
+      "anio": 11,
+      "paginas": 15,
+      "estado": "leyendo",
+      "generoId": "OBkSMIivJmM",
+      "url": "https://m.media-amazon.com/images/I/51prEbS1l2L._SL1024_.jpg",
+      "id": "AfLQsM-JeS0"
+    }
+  ],
+  "generos": [
+    {
+      "nombre": "guerra",
+      "color": "#ff0000",
+      "id": "qqWnfv7wUhI"
+    },
+    {
+      "nombre": "teorico",
+      "color": "#119744",
+      "id": "OBkSMIivJmM"
+    }
+  ],
+  "anotaciones": [
+    {
+      "libroId": "jBpKehKytCY",
+      "texto": "HO.LA",
+      "pagina": 777,
+      "fecha": "2026-06-02",
+      "id": "UAq3lk94P6w"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
