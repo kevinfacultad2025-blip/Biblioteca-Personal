@@ -141,7 +141,7 @@ async function editarGenero(genero) {
     });
 
     await cargarGeneros();
-}
+}        
 
 async function eliminarGenero(id) {
 
@@ -543,6 +543,3 @@ async function eliminarAnotacion(
         libroActivo
     );
 }
-/*567*/
-
-

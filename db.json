@@ -1,55 +1,82 @@
 {
   "libros": [
     {
-      "titulo": "segundo LIBRO",
-      "autor": "jrjr",
-      "anio": 9,
-      "paginas": 9,
-      "estado": "leyendo",
-      "generoId": "qqWnfv7wUhI",
-      "url": "https://i.ytimg.com/vi/SUL11lUd6sI/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGDwgSyh_MA8=&rs=AOn4CLDzY2_ZGWCB9LabbxnpZnPhgz56-A",
-      "id": "jBpKehKytCY"
-    },
-    {
-      "titulo": "PRIMER LIBRO",
-      "autor": "Kevin",
-      "anio": 13,
-      "paginas": 10,
+      "titulo": "Alicia en el país de la maravilla",
+      "autor": "Lewis Carroll",
+      "anio": 1865,
+      "paginas": 589,
       "estado": "por leer",
-      "generoId": "qqWnfv7wUhI",
-      "url": "https://i.ytimg.com/vi/SUL11lUd6sI/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGDwgSyh_MA8=&rs=AOn4CLDzY2_ZGWCB9LabbxnpZnPhgz56-A",
-      "id": "YTH5VkU3Qc4"
+      "generoId": "WstYYWDMgXg",
+      "url": "https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/6034d7d1f3e0f51821b2b169_Alicia-en-el-pais-de-las-maravillas-lewis-carroll-editorial-alma.jpg",
+      "id": "Pjxa5lca8eA"
     },
     {
-      "titulo": "PRIMER LIBRO",
-      "autor": "lautaro",
-      "anio": 11,
-      "paginas": 15,
+      "titulo": "Demian",
+      "autor": "Hermann Hesse",
+      "anio": 1919,
+      "paginas": 150,
       "estado": "leyendo",
-      "generoId": "OBkSMIivJmM",
-      "url": "https://m.media-amazon.com/images/I/51prEbS1l2L._SL1024_.jpg",
-      "id": "AfLQsM-JeS0"
+      "generoId": "UqUpfW0Jp6w",
+      "url": "https://http2.mlstatic.com/D_NQ_NP_992490-MLM82255554168_022025-O-demian-pd-hermann-hesse.webp",
+      "id": "ja8ayDn-a6s"
+    },
+    {
+      "titulo": "X-men",
+      "autor": "Stan Lee",
+      "anio": 1963,
+      "paginas": 174,
+      "estado": "terminado",
+      "generoId": "WstYYWDMgXg",
+      "url": "https://m.media-amazon.com/images/I/71NHgtQUr9L._SL1000_.jpg",
+      "id": "671TEVbTR44"
+    },
+    {
+      "titulo": "Scooby-Doo",
+      "autor": "Joe Ruby",
+      "anio": 1969,
+      "paginas": 386,
+      "estado": "por leer",
+      "generoId": "uVNYTp9CnWc",
+      "url": "https://m.media-amazon.com/images/M/MV5BOWY0NzVkYWItZWZhYi00MTdkLTkyYzktZTlmNDU3NWZhOWZiXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+      "id": "00AbVxLTlUA"
     }
   ],
   "generos": [
     {
-      "nombre": "guerra",
-      "color": "#ff0000",
-      "id": "qqWnfv7wUhI"
+      "nombre": "Fantasia",
+      "color": "#ce1cae",
+      "id": "WstYYWDMgXg"
     },
     {
-      "nombre": "teorico",
-      "color": "#119744",
-      "id": "OBkSMIivJmM"
+      "nombre": "Filosofía y ficción",
+      "color": "#0b55ea",
+      "id": "UqUpfW0Jp6w"
+    },
+    {
+      "nombre": "Terrorifico",
+      "color": "#cc0000",
+      "id": "XYfzPn6mmAU"
+    },
+    {
+      "nombre": "Misterio",
+      "color": "#c78800",
+      "id": "uVNYTp9CnWc"
     }
   ],
   "anotaciones": [
     {
-      "libroId": "jBpKehKytCY",
-      "texto": "HO.LA",
-      "pagina": 777,
-      "fecha": "2026-06-02",
-      "id": "UAq3lk94P6w"
+      "libroId": "Pjxa5lca8eA",
+      "texto": "Cap1: descripcion...",
+      "pagina": 88,
+      "fecha": "2026-06-16",
+      "id": "obRHQwkGYE4"
+    },
+    {
+      "libroId": "ja8ayDn-a6s",
+      "texto": "Me sorprendio",
+      "pagina": 100,
+      "fecha": "2026-06-16",
+      "id": "d0tAoity8Ks"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
